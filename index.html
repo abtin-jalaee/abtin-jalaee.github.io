@@ -1,55 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abtin Jalaee | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Abtin Jalaee</h1>
-    <p>Software Engineer | AI & Cloud Developer | .NET, Python, React</p>
+    <p>Software Engineer | AI & Cloud Developer | .NET, Python, React, AWS</p>
     <nav>
-      <a href="#projects">Projects</a>
       <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#accomplishments">Accomplishments</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a results-driven Software Engineer with 8+ years of experience building scalable backend solutions,
+        cloud-native applications, and secure AI systems. I specialize in .NET 8, Python, AWS, Azure, and AI integrations.
+        I am passionate about solving complex problems with clean, maintainable code and innovative technologies.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> C#, Python, Java, SQL, JavaScript, TypeScript</li>
+        <li><strong>Cloud & DevOps:</strong> AWS (EMR, Lambda, S3), Azure, GitHub Actions, CI/CD, Docker</li>
+        <li><strong>Data & AI:</strong> PySpark, Spark, Databricks, Jupyter, TensorFlow, PyTorch, LangChain, Hugging Face</li>
+        <li><strong>Frameworks & Tools:</strong> .NET 8, React, Next.js, Flutter, Supabase, REST APIs</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
     <section id="projects" class="section">
       <h2>Featured Projects</h2>
       <div class="projects">
         <div class="project-card">
-          <img src="assets/dotnet.png" alt=".NET App" />
-          <h3>.NET AI Automation Library</h3>
-          <p>A .NET 8 NuGet library that automates repetitive tasks using natural language, supporting multiple AI providers.</p>
-          <a href="https://github.com/abtinjalaee/Fraiday" target="_blank">View on GitHub</a>
+          <img src="assets/dotnet.png" alt=".NET Library">
+          <h3>Fraiday (.NET 8 Automation Library)</h3>
+          <p>NuGet-based automation assistant for AI tasks. Supports OpenAI, Mistral, and Azure AI integrations.</p>
+          <a href="https://github.com/abtinjalaee/fraiday" target="_blank">View on GitHub</a>
         </div>
         <div class="project-card">
-          <img src="assets/nextjs.png" alt="Next.js App" />
-          <h3>AI Agent Platform</h3>
-          <p>A Next.js + Supabase app enabling user-AI story creation with image generation and pay-as-you-go usage.</p>
-          <a href="https://github.com/abtinjalaee/ai-agent-platform" target="_blank">View on GitHub</a>
+          <img src="assets/nextjs.png" alt="Next.js App">
+          <h3>Joip (AI Story Platform)</h3>
+          <p>React + Supabase storytelling app with voice playback and AI-generated images.</p>
+          <a href="https://github.com/abtinjalaee/joip" target="_blank">View on GitHub</a>
         </div>
         <div class="project-card">
-          <img src="assets/flutter.png" alt="Flutter App" />
+          <img src="assets/flutter.png" alt="Flutter App">
           <h3>Zahra Mobile App</h3>
-          <p>A Flutter app integrating Firebase Auth and Firestore with a clean, modern UI.</p>
-          <a href="https://github.com/abtinjalaee/zahra" target="_blank">View on GitHub</a>
+          <p>Flutter app integrating Firebase Auth and Firestore for secure, personalized experiences.</p>
+          <a href="https://github.com/abtinjalaee/flutter-zahra" target="_blank">View on GitHub</a>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>
-        I’m a results-driven Software Engineer with 8+ years of experience building scalable backend solutions,
-        cloud-native apps, and secure systems. I specialize in .NET 8, Python, AWS, Azure, and AI integrations.
-      </p>
+    <!-- Accomplishments Section -->
+    <section id="accomplishments" class="section">
+      <h2>Accomplishments & Certifications</h2>
+      <ul>
+        <li>AWS Certified Solutions Architect Associate</li>
+        <li>Certified Secure Software Engineer</li>
+        <li>ServSafe Food Manager Certification</li>
+        <li>Successfully delivered enterprise AI/ML, cloud, and .NET projects</li>
+        <li>Published open-source libraries and AI tools on GitHub</li>
+      </ul>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="section">
       <h2>Contact</h2>
       <p>📧 <a href="mailto:abtin.jalaee@gmail.com">abtin.jalaee@gmail.com</a></p>
